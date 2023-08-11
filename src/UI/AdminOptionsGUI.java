@@ -240,7 +240,16 @@ public class AdminOptionsGUI extends JFrame {
 
                     fullNameField.setText("");
                     ageField.setText("");
-                    // ... (clear other fields)
+                    phoneField.setText("");
+                    emailField.setText("");
+                    ninField.setText("");
+                    stateField.setText("");
+                    lgaField.setText("");
+                    nextOfKinField.setText("");
+                    maritalStatusField.setText("");
+                    genotypeField.setText("");
+                    bloodGroupField.setText("");
+                    genderField.setText("");
                 } catch (IOException ex) {
                     JOptionPane.showMessageDialog(null, "Failed to register user: " + ex.getMessage());
                 }
@@ -255,8 +264,10 @@ public class AdminOptionsGUI extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                AdminOptionsGUI optionsGUI = new AdminOptionsGUI();
+                String fullName = "";
+                AdminOptionsGUI optionsGUI = new AdminOptionsGUI(fullName);
                 optionsGUI.setVisible(true);
+            }
             }
         });
     }
