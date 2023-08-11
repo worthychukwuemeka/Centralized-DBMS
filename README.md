@@ -12,7 +12,7 @@ This project implements a Centralized Database Management System using Java Swin
 
 1. Clone the repository:
    ```
-   git clone https://github.com/worthychukwuemeka/centralized-database.git
+   git clone https://github.com/worthychukwuemeka/centralized-dbms.git
    ```
 2. Open the project in your preferred Java IDE.
 
