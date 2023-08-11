@@ -255,8 +255,7 @@ public class AdminOptionsGUI extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                String fullName = "John Doe";
-                AdminOptionsGUI optionsGUI = new AdminOptionsGUI(fullName);
+                AdminOptionsGUI optionsGUI = new AdminOptionsGUI();
                 optionsGUI.setVisible(true);
             }
         });
