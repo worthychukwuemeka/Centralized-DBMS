@@ -21,10 +21,15 @@ This project implements a Centralized Database Management System using Java Swin
 1. Run the `WelcomeWindow` class to start the application.
 2. In the Welcome window, select an organization and click "Proceed."
 3. In the Registration window, enter your login ID and password.
-4. If you're an admin, you will see additional options for managing users.
+4. These are the data you can use to login to access the CSV file data:
+   -johnpatrick, password1
+   -sarahgbenga, password2,
+   -fatimamusa, password3, and
+   -philipokocha, password4.
+Any data other than this entered to login will return an error.
+5. If you're an admin, you will see additional options for managing users.
    - Select "Register New User" to open the Registration form.
    - Select "View Past Records" to view a CSV file with dummy data.
-5. If you're a citizen, you will see your own profile.
 
 ## Project Structure
 
