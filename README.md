@@ -1,6 +1,6 @@
 # Centralized Database Management System
 
-This project implements a Centralized Database Management System using Java Swing for the graphical user interface (GUI) and CSV files for data storage. The system allows administrators to register new users, view past records, and manage user profiles. Citizens can view their own profiles.
+This project implements a Centralized Database Management System using Java Swing for the graphical user interface (GUI) and CSV files for data storage. The system allows administrators to register new users, view past records, and manage user profiles. 
 
 ## Features
 
@@ -28,16 +28,16 @@ This project implements a Centralized Database Management System using Java Swin
    - philipokocha, password4.
 Any data other than this entered to login will return an error.
 5. If you're an admin, you will see additional options for managing users.
-   - Select "Register New User" to open the Registration form.
-   - Select "View Past Records" to view a CSV file with dummy data.
+   - Select "Register New User" to open the Registration form & add a new user to the DB.
+   - Select "View Past Records" to view a CSV database file with data of users registered on the system.
 
 ## Project Structure
 
 - `WelcomeWindow.java`: Displays the welcome window with organization options.
 - `RegistrationWindow.java`: Displays the registration window for users to log in.
-- `DashboardWindow.java`: Displays the dashboard for admin and citizen users.
-- `CsvWriter.java`: Handles writing data to a CSV file.
-- `ExistingUserData.csv`: CSV file containing dummy user data.
+- `DashboardWindow.java`: Displays the dashboard for admins.
+- `CsvWriter.java`: Handles the data writing to the CSV file.
+- `ExistingUserData.csv`: CSV file containing registered users' data.
 
 ## Data Storage
 
